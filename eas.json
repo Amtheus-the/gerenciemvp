@@ -5,17 +5,17 @@
   },
   "build": {
     "development": {
-    "developmentClient": true,
-    "distribution": "internal",
-    "root": "."
+  "developmentClient": true,
+  "distribution": "internal",
+  "buildDirectory": "."
     },
     "preview": {
-    "distribution": "internal",
-    "root": "."
+  "distribution": "internal",
+  "buildDirectory": "."
     },
     "production": {
-    "autoIncrement": true,
-    "root": "."
+  "autoIncrement": true,
+  "buildDirectory": "."
     }
   },
   "submit": {
