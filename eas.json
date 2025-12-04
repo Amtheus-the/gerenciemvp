@@ -5,14 +5,17 @@
   },
   "build": {
     "development": {
-      "developmentClient": true,
-      "distribution": "internal"
+    "developmentClient": true,
+    "distribution": "internal",
+    "root": "."
     },
     "preview": {
-      "distribution": "internal"
+    "distribution": "internal",
+    "root": "."
     },
     "production": {
-      "autoIncrement": true
+    "autoIncrement": true,
+    "root": "."
     }
   },
   "submit": {
